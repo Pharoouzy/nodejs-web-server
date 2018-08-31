@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content="width=device-width, initial-scale=1">
+        <title>Node Application | Help Page</title>
+    </head>
+
+    <body>
+        {{> header}}
+        <p>{{screamIt welcomeMessage}}</p>
+        <p>Click <a href="login">Here</a> to Login.</p>
+        <form action="#" method="POST">
+            <input type='text'>
+            <input type="submit" value="Search" onsubmit="alert()">
+        </form>
+        {{> footer}} <!-- Templating a partial file -->
+    </body>
+</html>
